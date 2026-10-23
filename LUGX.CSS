@@ -1,0 +1,175 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(51, 122, 153);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.header_link a {
+    color: aliceblue;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.header_link a:hover {
+    background-color: rgb(76, 172, 213);
+}
+
+.btn {
+    background-color: brown;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: azure;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header_link button:hover,
+.landing-page-Search button:hover {
+    background-color: rgb(76, 172, 213);
+}
+
+.landing-page {
+    background-color: rgb(51, 122, 153);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    color: azure;
+    border-radius: 0 0 50px 50px;
+    gap: 40px;
+}
+
+.landing-page-left {
+    flex: 1;
+}
+
+.landing-page-left h1 {
+    font-size: 40px;
+}
+
+.landing-page-left p {
+    line-height: 1.8;
+}
+
+.landing-page-Search {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.landing-page-Search input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.landing-page-Search button {
+    flex-shrink: 0;
+}
+
+.landing-page-container {
+    flex: 1;
+    text-align: center;
+}
+
+.landing-page-container img {
+    border-radius: 20px;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+}
+
+.Treding {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 50px;
+}
+
+.Treding-content span {
+    display: block;
+}
+
+.Treding-content h1 {
+    margin: 10px 0 0;
+}
+
+
+.trending-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 50px;
+}
+
+.trending-cards .card {
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.trending-cards .thumb {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.trending-cards .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.trending-cards .card-name p {
+    margin: 0 0 8px;
+    color: #777;
+}
+
+.trending-cards .card-name h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.trending-cards .shop-icon {
+    background: none;
+    display: flex;
+    align-items: center;
+}
+
+.trending-cards .shop-icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.trending-cards .card:hover {
+    transform: scale(1.05);
+}
+
